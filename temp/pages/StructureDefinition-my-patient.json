@@ -10,7 +10,7 @@
   "name" : "MyPatient",
   "title" : "My Patient",
   "status" : "draft",
-  "date" : "2024-03-08T14:42:37+01:00",
+  "date" : "2024-03-08T14:46:34+01:00",
   "description" : "A sample patient profile.",
   "fhirVersion" : "4.0.1",
   "mapping" : [{

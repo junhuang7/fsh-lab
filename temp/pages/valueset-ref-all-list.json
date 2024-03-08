@@ -248,8 +248,8 @@
       "uses" : {
       },
       "StructureDefinition-my-patient.html" : "My Patient",
-      "StructureDefinition-specific-vaccination.html" : "Specific Vaccination",
-      "StructureDefinition-weight-observation.html" : "Weight Observation"
+      "StructureDefinition-weight-observation.html" : "Weight Observation",
+      "StructureDefinition-specific-vaccination.html" : "Specific Vaccination"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

@@ -1,6 +1,6 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-cs6440.json	1857	-	0	0	0	0	0	0	13	151	0	0	0	0	0	0	0	0	0	0	98	70	0	1	0	2	0	2
-fsh-generated/resources/StructureDefinition-favorite-color.json	1751	43	1	0	0	1	0	30	1	360	0	0	0	0	0	0	0	0	0	0	80	3235	0	0	0	3	0	0
-fsh-generated/resources/StructureDefinition-my-patient.json	2360	22	0	0	0	0	0	117	0	56	0	0	1	0	0	0	0	2	0	0	382	1640	0	0	0	28	0	2
-fsh-generated/resources/StructureDefinition-specific-vaccination.json	2927	13	1	0	0	0	0	95	0	46	0	0	0	0	0	0	0	1	0	0	389	1253	0	0	0	41	1	2
-fsh-generated/resources/StructureDefinition-weight-observation.json	2141	20	0	0	0	0	0	115	0	34	0	0	0	0	0	0	0	1	0	0	340	1201	0	0	0	15	0	2
+/fsh-generated/resources/ImplementationGuide-cs6440.json	1857	-	0	0	0	0	0	0	3	74	0	0	0	0	0	0	0	1	0	0	97	78	0	0	0	2	0	1
+fsh-generated/resources/StructureDefinition-favorite-color.json	1751	29	1	0	1	1	0	35	0	126	0	0	0	0	0	0	0	0	0	0	84	2319	0	1	0	2	0	0
+fsh-generated/resources/StructureDefinition-my-patient.json	2360	54	0	0	0	0	0	137	0	43	0	0	0	0	0	0	0	1	0	0	414	1437	0	0	0	9	0	2
+fsh-generated/resources/StructureDefinition-specific-vaccination.json	2919	46	1	0	0	0	0	91	0	49	0	0	1	0	0	0	0	1	0	0	381	1149	0	0	0	8	1	2
+fsh-generated/resources/StructureDefinition-weight-observation.json	2141	28	0	0	0	0	0	79	0	42	0	0	0	0	0	0	0	1	0	0	363	1041	0	0	0	8	0	1

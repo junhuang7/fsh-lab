@@ -5,7 +5,7 @@
   "igName" : "CS6440FSHIG",
   "packageId" : "cs6440",
   "igVer" : "0.1.0",
-  "errorCount" : 3,
+  "errorCount" : 1,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
@@ -14,7 +14,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 5,
   "processedFiles" : 12,
-  "genDate" : "Fri, Mar 8, 2024 14:42+0100",
+  "genDate" : "Fri, Mar 8, 2024 14:46+0100",
   "genDay" : "08/03/2024",
   "resourceTypes" : [
     "Account",
@@ -241,7 +241,7 @@
     "experimental" : false,
     "publisher" : null,
     "gitstatus" : "main",
-    "date" : "2024-03-08T14:42:37+01:00",
+    "date" : "2024-03-08T14:46:34+01:00",
     "description" : "CS6440 Stretch Lab Implementation Guide.",
     "copyright" : null,
     "fhirVersion" : "4.0.1"
