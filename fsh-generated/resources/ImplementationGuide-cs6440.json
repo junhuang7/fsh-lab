@@ -20,6 +20,14 @@
         "name": "My Patient",
         "description": "A sample patient.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/weight-observation"
+        },
+        "name": "Weight Observation",
+        "description": "An observation that captures patient weight.",
+        "exampleBoolean": false
       }
     ],
     "page": {
