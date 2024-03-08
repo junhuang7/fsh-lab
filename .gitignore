@@ -1,0 +1,13 @@
+
+# FSH-generated files
+/fsh-generated/
+
+# Editor backup files
+*~
+*.bak
+
+# macOS system files
+**/.DS_Store
+
+# Personal files
+notes.txt
