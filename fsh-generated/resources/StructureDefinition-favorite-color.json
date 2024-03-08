@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "favorite-color",
-  "url": "http://example.org//StructureDefinition/favorite-color",
+  "url": "http://example.org/StructureDefinition/favorite-color",
   "name": "FavoriteColorExtension",
   "title": "Favorite Color Extension",
   "status": "draft",
@@ -41,7 +41,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org//StructureDefinition/favorite-color"
+        "fixedUri": "http://example.org/StructureDefinition/favorite-color"
       },
       {
         "id": "Extension.value[x]",

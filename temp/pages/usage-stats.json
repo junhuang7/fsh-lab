@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://example.org//StructureDefinition/favorite-color",
+      "url": "http://example.org/StructureDefinition/favorite-color",
       "title": "Favorite Color Extension",
       "types": [
         "string",
@@ -15,25 +15,25 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://example.org//StructureDefinition/my-patient",
+        "url": "http://example.org/StructureDefinition/my-patient",
         "title": "My Patient"
       }
     ],
     "Immunization": [
       {
-        "url": "http://example.org//StructureDefinition/specific-vaccination",
+        "url": "http://example.org/StructureDefinition/specific-vaccination",
         "title": "Specific Vaccination"
       }
     ],
     "Observation": [
       {
-        "url": "http://example.org//StructureDefinition/weight-observation",
+        "url": "http://example.org/StructureDefinition/weight-observation",
         "title": "Weight Observation"
       }
     ]
   },
   "usage": {
-    "http://example.org//StructureDefinition/favorite-color": [
+    "http://example.org/StructureDefinition/favorite-color": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [

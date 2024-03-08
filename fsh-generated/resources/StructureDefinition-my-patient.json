@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "my-patient",
-  "url": "http://example.org//StructureDefinition/my-patient",
+  "url": "http://example.org/StructureDefinition/my-patient",
   "name": "MyPatient",
   "title": "My Patient",
   "status": "draft",
@@ -65,7 +65,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://example.org//StructureDefinition/favorite-color"
+              "http://example.org/StructureDefinition/favorite-color"
             ]
           }
         ]
