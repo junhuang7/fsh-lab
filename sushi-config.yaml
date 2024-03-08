@@ -7,9 +7,9 @@ id: cs6440
 canonical: http://example.org/
 version: 0.1.0
 name: CS6440FSHIG
-title: Your_Name's Implementation Guide
+title: Jun Huang's Implementation Guide
 status: draft
-publisher: Your_Name
+publisher: Jun Huang
 description: CS6440 Stretch Lab Implementation Guide.
 fhirVersion: 4.0.1
 copyrightYear: 2021+
