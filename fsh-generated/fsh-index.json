@@ -21,7 +21,7 @@
     "fshType": "Profile",
     "fshFile": "SpecificVaccination.fsh",
     "startLine": 1,
-    "endLine": 7
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-weight-observation.json",
@@ -29,6 +29,6 @@
     "fshType": "Profile",
     "fshFile": "WeightObservation.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 11
   }
 ]

@@ -2,16 +2,40 @@
   "package": "cs6440",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://example.org//StructureDefinition/favorite-color",
+      "title": "Favorite Color Extension",
+      "types": [
+        "string",
+        "string"
+      ]
+    }
+  ],
   "profiles": {
     "Patient": [
       {
         "url": "http://example.org//StructureDefinition/my-patient",
         "title": "My Patient"
       }
+    ],
+    "Immunization": [
+      {
+        "url": "http://example.org//StructureDefinition/specific-vaccination",
+        "title": "Specific Vaccination"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://example.org//StructureDefinition/weight-observation",
+        "title": "Weight Observation"
+      }
     ]
   },
   "usage": {
+    "http://example.org//StructureDefinition/favorite-color": [
+      "Patient"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -23,6 +47,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"

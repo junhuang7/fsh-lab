@@ -68,6 +68,162 @@
     "title" : "My Patient - TTL Representation",
     "label" : "2.1",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
-    "previous" : "StructureDefinition-my-patient.profile.json.html"
+    "previous" : "StructureDefinition-my-patient.profile.json.html",
+    "next" : "StructureDefinition-specific-vaccination.html"
+  },
+  "StructureDefinition-specific-vaccination.html" : {
+    "title" : "Specific Vaccination",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-my-patient.profile.ttl.html",
+    "next" : "StructureDefinition-specific-vaccination-definitions.html"
+  },
+  "StructureDefinition-specific-vaccination-definitions.html" : {
+    "title" : "Specific Vaccination - Definitions",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "previous" : "StructureDefinition-specific-vaccination.html",
+    "next" : "StructureDefinition-specific-vaccination-mappings.html"
+  },
+  "StructureDefinition-specific-vaccination-mappings.html" : {
+    "title" : "Specific Vaccination - Mappings",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "previous" : "StructureDefinition-specific-vaccination-definitions.html",
+    "next" : "StructureDefinition-specific-vaccination-testing.html"
+  },
+  "StructureDefinition-specific-vaccination-testing.html" : {
+    "title" : "Specific Vaccination - Testing",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "previous" : "StructureDefinition-specific-vaccination-mappings.html",
+    "next" : "StructureDefinition-specific-vaccination.profile.xml.html"
+  },
+  "StructureDefinition-specific-vaccination.profile.xml.html" : {
+    "title" : "Specific Vaccination - XML Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "previous" : "StructureDefinition-specific-vaccination-testing.html",
+    "next" : "StructureDefinition-specific-vaccination.profile.json.html"
+  },
+  "StructureDefinition-specific-vaccination.profile.json.html" : {
+    "title" : "Specific Vaccination - JSON Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "previous" : "StructureDefinition-specific-vaccination.profile.xml.html",
+    "next" : "StructureDefinition-specific-vaccination.profile.ttl.html"
+  },
+  "StructureDefinition-specific-vaccination.profile.ttl.html" : {
+    "title" : "Specific Vaccination - TTL Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Specific Vaccination</b></li>",
+    "previous" : "StructureDefinition-specific-vaccination.profile.json.html",
+    "next" : "StructureDefinition-weight-observation.html"
+  },
+  "StructureDefinition-weight-observation.html" : {
+    "title" : "Weight Observation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-specific-vaccination.profile.ttl.html",
+    "next" : "StructureDefinition-weight-observation-definitions.html"
+  },
+  "StructureDefinition-weight-observation-definitions.html" : {
+    "title" : "Weight Observation - Definitions",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation.html",
+    "next" : "StructureDefinition-weight-observation-mappings.html"
+  },
+  "StructureDefinition-weight-observation-mappings.html" : {
+    "title" : "Weight Observation - Mappings",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation-definitions.html",
+    "next" : "StructureDefinition-weight-observation-testing.html"
+  },
+  "StructureDefinition-weight-observation-testing.html" : {
+    "title" : "Weight Observation - Testing",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation-mappings.html",
+    "next" : "StructureDefinition-weight-observation.profile.xml.html"
+  },
+  "StructureDefinition-weight-observation.profile.xml.html" : {
+    "title" : "Weight Observation - XML Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation-testing.html",
+    "next" : "StructureDefinition-weight-observation.profile.json.html"
+  },
+  "StructureDefinition-weight-observation.profile.json.html" : {
+    "title" : "Weight Observation - JSON Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation.profile.xml.html",
+    "next" : "StructureDefinition-weight-observation.profile.ttl.html"
+  },
+  "StructureDefinition-weight-observation.profile.ttl.html" : {
+    "title" : "Weight Observation - TTL Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation.profile.json.html",
+    "next" : "StructureDefinition-favorite-color.html"
+  },
+  "StructureDefinition-favorite-color.html" : {
+    "title" : "Favorite Color Extension",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-weight-observation.profile.ttl.html",
+    "next" : "StructureDefinition-favorite-color-definitions.html"
+  },
+  "StructureDefinition-favorite-color-definitions.html" : {
+    "title" : "Favorite Color Extension - Definitions",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "previous" : "StructureDefinition-favorite-color.html",
+    "next" : "StructureDefinition-favorite-color-mappings.html"
+  },
+  "StructureDefinition-favorite-color-mappings.html" : {
+    "title" : "Favorite Color Extension - Mappings",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "previous" : "StructureDefinition-favorite-color-definitions.html",
+    "next" : "StructureDefinition-favorite-color-testing.html"
+  },
+  "StructureDefinition-favorite-color-testing.html" : {
+    "title" : "Favorite Color Extension - Testing",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "previous" : "StructureDefinition-favorite-color-mappings.html",
+    "next" : "StructureDefinition-favorite-color.profile.xml.html"
+  },
+  "StructureDefinition-favorite-color.profile.xml.html" : {
+    "title" : "Favorite Color Extension - XML Representation",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "previous" : "StructureDefinition-favorite-color-testing.html",
+    "next" : "StructureDefinition-favorite-color.profile.json.html"
+  },
+  "StructureDefinition-favorite-color.profile.json.html" : {
+    "title" : "Favorite Color Extension - JSON Representation",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "previous" : "StructureDefinition-favorite-color.profile.xml.html",
+    "next" : "StructureDefinition-favorite-color.profile.ttl.html"
+  },
+  "StructureDefinition-favorite-color.profile.ttl.html" : {
+    "title" : "Favorite Color Extension - TTL Representation",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Favorite Color Extension</b></li>",
+    "previous" : "StructureDefinition-favorite-color.profile.json.html"
   }
 }

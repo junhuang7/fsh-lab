@@ -11,8 +11,27 @@
     "version" : "0.1.0",
     "name" : "CS6440FSHIG",
     "title" : "Jun Huang's Implementation Guide",
-    "date" : "2024-03-08T13:29:06+01:00",
+    "date" : "2024-03-08T14:05:39+01:00",
     "description" : "CS6440 Stretch Lab Implementation Guide.",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/favorite-color" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/StructureDefinition-favorite-color.json",
+    "sourceTail" : "StructureDefinition-favorite-color.json",
+    "path" : "StructureDefinition-favorite-color.html",
+    "url" : "http://example.org//StructureDefinition/favorite-color",
+    "version" : "0.1.0",
+    "name" : "FavoriteColorExtension",
+    "title" : "Favorite Color Extension",
+    "date" : "2024-03-08T14:05:39+01:00",
+    "description" : "Captures a person's favorite color.",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -22,7 +41,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 1,
+    "index" : 2,
     "source" : "fsh-generated/resources/StructureDefinition-my-patient.json",
     "sourceTail" : "StructureDefinition-my-patient.json",
     "path" : "StructureDefinition-my-patient.html",
@@ -30,8 +49,46 @@
     "version" : "0.1.0",
     "name" : "MyPatient",
     "title" : "My Patient",
-    "date" : "2024-03-08T13:29:06+01:00",
-    "description" : "A sample patient.",
+    "date" : "2024-03-08T14:05:39+01:00",
+    "description" : "A sample patient profile.",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/specific-vaccination" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/StructureDefinition-specific-vaccination.json",
+    "sourceTail" : "StructureDefinition-specific-vaccination.json",
+    "path" : "StructureDefinition-specific-vaccination.html",
+    "url" : "http://example.org//StructureDefinition/specific-vaccination",
+    "version" : "0.1.0",
+    "name" : "SpecificVaccination",
+    "title" : "Specific Vaccination",
+    "date" : "2024-03-08T14:05:39+01:00",
+    "description" : "Captures detailed information about a specific vaccination, such as a COVID-19 vaccine.",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/weight-observation" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/StructureDefinition-weight-observation.json",
+    "sourceTail" : "StructureDefinition-weight-observation.json",
+    "path" : "StructureDefinition-weight-observation.html",
+    "url" : "http://example.org//StructureDefinition/weight-observation",
+    "version" : "0.1.0",
+    "name" : "WeightObservation",
+    "title" : "Weight Observation",
+    "date" : "2024-03-08T14:05:39+01:00",
+    "description" : "An observation of a patient's weight.",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"

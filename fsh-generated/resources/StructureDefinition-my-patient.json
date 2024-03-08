@@ -56,16 +56,19 @@
         }
       },
       {
-        "id": "Patient.extension:FavoriteColorExtension",
+        "id": "Patient.extension:favoriteColor",
         "path": "Patient.extension",
-        "sliceName": "FavoriteColorExtension",
+        "sliceName": "favoriteColor",
         "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Patient.extension:FavoriteColorExtension.url",
-        "path": "Patient.extension.url",
-        "fixedUri": "FavoriteColorExtension"
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org//StructureDefinition/favorite-color"
+            ]
+          }
+        ]
       },
       {
         "id": "Patient.name",

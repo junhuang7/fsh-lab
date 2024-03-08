@@ -16,7 +16,7 @@
    <name value="CS6440FSHIG"/>
    <title value="Jun Huang's Implementation Guide"/>
    <status value="draft"/>
-   <date value="2024-03-08T13:29:06+01:00"/>
+   <date value="2024-03-08T14:05:39+01:00"/>
    <description value="CS6440 Stretch Lab Implementation Guide."/>
    <packageId value="cs6440"/>
    <license value="CC0-1.0"/>
@@ -260,6 +260,12 @@
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
       </grouping>
       
+      <grouping id="-str-extension">
+         <name value="Structures: Extension Definitions"/>
+         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide."/>
+      </grouping>
+      
+      
       
       
       
@@ -328,9 +334,63 @@
             <reference value="StructureDefinition/my-patient"/>
          </reference>
          <name value="My Patient"/>
-         <description value="A sample patient."/>
+         <description value="A sample patient profile."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-specific-vaccination.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/specific-vaccination"/>
+         </reference>
+         <name value="Specific Vaccination"/>
+         <description value="Captures detailed information about a specific vaccination, such as a COVID-19 vaccine."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-weight-observation.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/weight-observation"/>
+         </reference>
+         <name value="Weight Observation"/>
+         <description value="An observation of a patient's weight."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-favorite-color.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/favorite-color"/>
+         </reference>
+         <name value="Favorite Color Extension"/>
+         <description value="Captures a person's favorite color."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
       </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -354,6 +414,21 @@
             <page>
                <nameUrl value="StructureDefinition-my-patient.html"/>
                <title value="My Patient"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-specific-vaccination.html"/>
+               <title value="Specific Vaccination"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-weight-observation.html"/>
+               <title value="Weight Observation"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-favorite-color.html"/>
+               <title value="Favorite Color Extension"/>
                <generation value="generated"/>
             </page>
          </page>
