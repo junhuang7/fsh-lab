@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/favorite-color']) &lt;= 1">extension with URL = 'http://example.org/StructureDefinition/favorite-color': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/ImplementationGuide/cs6440/StructureDefinition/favorite-color']) &lt;= 1">extension with URL = 'http://example.org/fhir/ImplementationGuide/cs6440/StructureDefinition/favorite-color': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:name) &lt;= 1">name: maximum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:address) &gt;= 1">address: minimum cardinality of 'address' is 1</sch:assert>

@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "cs6440",
-  "url": "http://example.org/ImplementationGuide/cs6440",
+  "url": "http://example.org/fhir/ImplementationGuide/cs6440/ImplementationGuide/cs6440",
   "version": "0.1.0",
   "name": "CS6440FSHIG",
   "title": "Jun Huang's Implementation Guide",
