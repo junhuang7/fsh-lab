@@ -8,5 +8,5 @@ Description:    "An observation that captures patient weight."
 * code ^mustSupport = true
 * value[x] only Quantity
 * value[x] ^mustSupport = true
-* subject only Reference("http://example.org/fhir/StructureDefinition/my-patient")
+* subject only Reference("http://example.org/StructureDefinition/my-patient")
 * subject ^mustSupport = true
