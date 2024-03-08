@@ -1,13 +1,14 @@
+# Ignore temporary files and folders
+/input-cache/
+/temp/
+/template/
 
-# FSH-generated files
-/fsh-generated/
+# System files
+.DS_Store
 
-# Editor backup files
-*~
+# Other files and folders to ignore
 *.bak
+*~
 
-# macOS system files
-**/.DS_Store
-
-# Personal files
-notes.txt
+# Ignore output directories if generated
+/output/

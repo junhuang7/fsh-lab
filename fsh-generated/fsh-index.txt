@@ -1,0 +1,2 @@
+Output File                          Name       Type     FSH File       Lines
+StructureDefinition-my-patient.json  MyPatient  Profile  MyPatient.fsh  1 - 12
