@@ -5,10 +5,3 @@
 
 # System files
 .DS_Store
-
-# Other files and folders to ignore
-*.bak
-*~
-
-# Ignore output directories if generated
-/output/
