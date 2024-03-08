@@ -5,18 +5,18 @@
       <div xmlns="http://www.w3.org/1999/xhtml">
          <h2>CS6440FSHIG</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://example.org/fhir/ImplementationGuide/cs6440/ImplementationGuide/cs6440</pre>
+         <pre>http://example.org/ImplementationGuide/cs6440</pre>
          <div>
             <p>CS6440 Stretch Lab Implementation Guide.</p>
          </div>
       </div>
    </text>
-   <url value="http://example.org/fhir/ImplementationGuide/cs6440/ImplementationGuide/cs6440"/>
+   <url value="http://example.org/ImplementationGuide/cs6440"/>
    <version value="0.1.0"/>
    <name value="CS6440FSHIG"/>
    <title value="Jun Huang's Implementation Guide"/>
    <status value="draft"/>
-   <date value="2024-03-08T15:26:18+01:00"/>
+   <date value="2024-03-08T15:32:35+01:00"/>
    <description value="CS6440 Stretch Lab Implementation Guide."/>
    <packageId value="cs6440"/>
    <license value="CC0-1.0"/>
@@ -115,7 +115,7 @@
             <valueString value="path-history"/>
          </extension>
          <extension url="value">
-            <valueString value="http://example.org/fhir/history.html"/>
+            <valueString value="http://example.org/history.html"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -539,7 +539,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="http://example.org/fhir/history.html"/>
+         <value value="http://example.org/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

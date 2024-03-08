@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/ImplementationGuide/cs6440> a fhir:ImplementationGuide ;
+<http://example.org/ImplementationGuide/cs6440> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cs6440"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CS6440FSHIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/ImplementationGuide/cs6440/ImplementationGuide/cs6440</pre><div><p>CS6440 Stretch Lab Implementation Guide.</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CS6440FSHIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/cs6440</pre><div><p>CS6440 Stretch Lab Implementation Guide.</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://example.org/fhir/ImplementationGuide/cs6440/ImplementationGuide/cs6440"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://example.org/ImplementationGuide/cs6440"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CS6440FSHIG"] ; # 
   fhir:title [ fhir:v "Jun Huang's Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-08T15:26:18+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-08T15:32:35+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "CS6440 Stretch Lab Implementation Guide."] ; # 
   fhir:packageId [ fhir:v "cs6440"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
@@ -135,7 +135,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://example.org/fhir/history.html" ]
+         fhir:value [ fhir:v "http://example.org/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -363,7 +363,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://example.org/fhir/history.html" ]
+         fhir:value [ fhir:v "http://example.org/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -508,7 +508,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/StructureDefinition/favorite-color> ;
+         fhir:link <http://example.org/StructureDefinition/favorite-color> ;
          fhir:reference [ fhir:v "StructureDefinition/favorite-color" ]
        ] ;
        fhir:name [ fhir:v "Favorite Color Extension" ] ;
@@ -520,7 +520,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/StructureDefinition/my-patient> ;
+         fhir:link <http://example.org/StructureDefinition/my-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/my-patient" ]
        ] ;
        fhir:name [ fhir:v "My Patient" ] ;
@@ -532,7 +532,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/StructureDefinition/specific-vaccination> ;
+         fhir:link <http://example.org/StructureDefinition/specific-vaccination> ;
          fhir:reference [ fhir:v "StructureDefinition/specific-vaccination" ]
        ] ;
        fhir:name [ fhir:v "Specific Vaccination" ] ;
@@ -544,7 +544,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/StructureDefinition/weight-observation> ;
+         fhir:link <http://example.org/StructureDefinition/weight-observation> ;
          fhir:reference [ fhir:v "StructureDefinition/weight-observation" ]
        ] ;
        fhir:name [ fhir:v "Weight Observation" ] ;
