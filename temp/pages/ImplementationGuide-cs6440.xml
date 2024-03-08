@@ -11,7 +11,7 @@
   <name value="CS6440FSHIG"/>
   <title value="Jun Huang's Implementation Guide"/>
   <status value="draft"/>
-  <date value="2024-03-08T11:42:38+01:00"/>
+  <date value="2024-03-08T13:21:42+01:00"/>
   <description value="CS6440 Stretch Lab Implementation Guide."/>
   <packageId value="cs6440"/>
   <license value="CC0-1.0"/>
@@ -445,6 +445,17 @@
       </reference>
       <name value="My Patient"/>
       <description value="A sample patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/weight-observation"/>
+      </reference>
+      <name value="Weight Observation"/>
+      <description value="An observation that captures patient weight."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

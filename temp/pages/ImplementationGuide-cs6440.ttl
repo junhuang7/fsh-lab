@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CS6440FSHIG"] ; # 
   fhir:title [ fhir:v "Jun Huang's Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-08T11:42:38+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-08T13:21:42+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "CS6440 Stretch Lab Implementation Guide."] ; # 
   fhir:packageId [ fhir:v "cs6440"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
@@ -513,6 +513,18 @@
        ] ;
        fhir:name [ fhir:v "My Patient" ] ;
        fhir:description [ fhir:v "A sample patient." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/StructureDefinition/weight-observation> ;
+         fhir:reference [ fhir:v "StructureDefinition/weight-observation" ]
+       ] ;
+       fhir:name [ fhir:v "Weight Observation" ] ;
+       fhir:description [ fhir:v "An observation that captures patient weight." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [

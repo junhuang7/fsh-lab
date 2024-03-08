@@ -68,6 +68,58 @@
     "title" : "My Patient - TTL Representation",
     "label" : "2.1",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
-    "previous" : "StructureDefinition-my-patient.profile.json.html"
+    "previous" : "StructureDefinition-my-patient.profile.json.html",
+    "next" : "StructureDefinition-weight-observation.html"
+  },
+  "StructureDefinition-weight-observation.html" : {
+    "title" : "Weight Observation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-my-patient.profile.ttl.html",
+    "next" : "StructureDefinition-weight-observation-definitions.html"
+  },
+  "StructureDefinition-weight-observation-definitions.html" : {
+    "title" : "Weight Observation - Definitions",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation.html",
+    "next" : "StructureDefinition-weight-observation-mappings.html"
+  },
+  "StructureDefinition-weight-observation-mappings.html" : {
+    "title" : "Weight Observation - Mappings",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation-definitions.html",
+    "next" : "StructureDefinition-weight-observation-testing.html"
+  },
+  "StructureDefinition-weight-observation-testing.html" : {
+    "title" : "Weight Observation - Testing",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation-mappings.html",
+    "next" : "StructureDefinition-weight-observation.profile.xml.html"
+  },
+  "StructureDefinition-weight-observation.profile.xml.html" : {
+    "title" : "Weight Observation - XML Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation-testing.html",
+    "next" : "StructureDefinition-weight-observation.profile.json.html"
+  },
+  "StructureDefinition-weight-observation.profile.json.html" : {
+    "title" : "Weight Observation - JSON Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation.profile.xml.html",
+    "next" : "StructureDefinition-weight-observation.profile.ttl.html"
+  },
+  "StructureDefinition-weight-observation.profile.ttl.html" : {
+    "title" : "Weight Observation - TTL Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Weight Observation</b></li>",
+    "previous" : "StructureDefinition-weight-observation.profile.json.html"
   }
 }
