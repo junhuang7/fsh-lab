@@ -8,5 +8,5 @@ Description:    "An observation that captures patient weight."
 * code ^mustSupport = true
 * value[x] only Quantity
 * value[x] ^mustSupport = true
-* subject only Reference("http://example.org/StructureDefinition/my-patient")
+* subject only Reference(MyPatient) // Assume "MyPatient" profile will be resolved in the IG context
 * subject ^mustSupport = true
