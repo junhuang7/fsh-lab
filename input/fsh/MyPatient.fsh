@@ -2,13 +2,12 @@ Profile:        MyPatient
 Parent:         Patient
 Id:             my-patient
 Title:          "My Patient"
-Description:    "A sample patient."
+Description:    "A sample patient profile."
 * gender        ^mustSupport = true
-* address       1..1 // Requires one and only one address
+* address       1..1
 * address       ^mustSupport = true
 * address.country ^mustSupport = true
-* address.country 1..1 // Requires the country in the address
-* name          1..1 // Requires one and only one name
-* name.use      = #official // Sets the use of the name as "official"
-
-* extension contains FavoriteColorExtension 0..1 // Add the extension as optional
+* address.country 1..1
+* name          1..1
+* name.use      = #official
+* extension contains FavoriteColorExtension 0..1 // This line adds the extension optionally

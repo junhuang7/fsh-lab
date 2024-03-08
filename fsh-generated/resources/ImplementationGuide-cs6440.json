@@ -23,10 +23,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/favorite-color"
+          "reference": "StructureDefinition/favorite-color-extension"
         },
         "name": "Favorite Color Extension",
-        "description": "Extension to capture someone's favorite color.",
+        "description": "An extension to capture a patient's favorite color.",
         "exampleBoolean": false
       },
       {

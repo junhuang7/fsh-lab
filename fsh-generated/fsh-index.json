@@ -8,12 +8,12 @@
     "endLine": 10
   },
   {
-    "outputFile": "StructureDefinition-favorite-color.json",
+    "outputFile": "StructureDefinition-favorite-color-extension.json",
     "fshName": "FavoriteColorExtension",
     "fshType": "Extension",
     "fshFile": "FavoriteColorExtension.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 5
   },
   {
     "outputFile": "StructureDefinition-my-patient.json",
