@@ -1,5 +1,5 @@
 {
-  "date" : "Fri, 08 Mar, 2024 13:21:42 +0100",
+  "date" : "Fri, 08 Mar, 2024 13:24:34 +0100",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
@@ -8,43 +8,38 @@
       "processes" : [
         {
           "activity" : "load",
-          "start" : 25,
-          "length" : 31
+          "start" : 26,
+          "length" : 53
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 25,
-          "length" : 3
+          "start" : 26,
+          "length" : 6
         },
         {
           "activity" : "generateNarratives",
-          "start" : 25,
-          "length" : 81
+          "start" : 26,
+          "length" : 73
         },
         {
           "activity" : "validate",
-          "start" : 27,
-          "length" : 782
+          "start" : 28,
+          "length" : 777
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 28,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 28,
+          "start" : 29,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 28,
-          "length" : 120
+          "start" : 29,
+          "length" : 96
         },
         {
           "activity" : "generate2",
           "start" : 31,
-          "length" : 94
+          "length" : 78
         }
       ]
     },
@@ -54,104 +49,104 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 25,
+          "start" : 26,
           "length" : 13
         },
         {
-          "activity" : "load-configure",
-          "start" : 25,
-          "length" : 1
-        },
-        {
           "activity" : "loadInfo",
-          "start" : 25,
+          "start" : 26,
           "length" : 1
         },
         {
           "activity" : "load",
-          "start" : 25,
-          "length" : 34
+          "start" : 26,
+          "length" : 43
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 25,
-          "length" : 154
+          "start" : 26,
+          "length" : 137
         },
         {
           "activity" : "generateNarratives",
-          "start" : 25,
-          "length" : 91
+          "start" : 26,
+          "length" : 61
         },
         {
           "activity" : "validate",
           "start" : 26,
-          "length" : 1265
+          "length" : 1201
         },
         {
           "activity" : "checkConformanceResources",
-          "start" : 28,
+          "start" : 29,
           "length" : 1
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 28,
+          "start" : 29,
           "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 28,
-          "length" : 453
+          "start" : 29,
+          "length" : 390
         },
         {
           "activity" : "generate2",
           "start" : 31,
-          "length" : 3548
+          "length" : 3220
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 43,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-weight-observation.json",
-      "size" : 2150,
+      "size" : 1952,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 25,
-          "length" : 13
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 25,
-          "length" : 1
+          "start" : 26,
+          "length" : 11
         },
         {
           "activity" : "load",
-          "start" : 25,
-          "length" : 95
+          "start" : 26,
+          "length" : 30
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 25,
-          "length" : 130
+          "start" : 26,
+          "length" : 108
         },
         {
           "activity" : "generateNarratives",
-          "start" : 25,
-          "length" : 50
+          "start" : 26,
+          "length" : 33
         },
         {
           "activity" : "validate",
           "start" : 27,
-          "length" : 404
+          "length" : 440
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 29,
+          "length" : 1
         },
         {
           "activity" : "generate1",
           "start" : 29,
-          "length" : 371
+          "length" : 367
         },
         {
           "activity" : "generate2",
-          "start" : 34,
-          "length" : 1360
+          "start" : 35,
+          "length" : 1287
         }
       ]
     }

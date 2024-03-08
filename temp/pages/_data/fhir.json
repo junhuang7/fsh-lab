@@ -14,7 +14,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 3,
   "processedFiles" : 10,
-  "genDate" : "Fri, Mar 8, 2024 13:21+0100",
+  "genDate" : "Fri, Mar 8, 2024 13:24+0100",
   "genDay" : "08/03/2024",
   "resourceTypes" : [
     "Account",
@@ -241,7 +241,7 @@
     "experimental" : false,
     "publisher" : null,
     "gitstatus" : "main",
-    "date" : "2024-03-08T13:21:42+01:00",
+    "date" : "2024-03-08T13:24:34+01:00",
     "description" : "CS6440 Stretch Lab Implementation Guide.",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

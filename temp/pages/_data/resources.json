@@ -11,7 +11,7 @@
     "version" : "0.1.0",
     "name" : "CS6440FSHIG",
     "title" : "Jun Huang's Implementation Guide",
-    "date" : "2024-03-08T13:21:42+01:00",
+    "date" : "2024-03-08T13:24:34+01:00",
     "description" : "CS6440 Stretch Lab Implementation Guide.",
     "status" : {
       "class" : "colsd",
@@ -30,7 +30,7 @@
     "version" : "0.1.0",
     "name" : "MyPatient",
     "title" : "My Patient",
-    "date" : "2024-03-08T13:21:42+01:00",
+    "date" : "2024-03-08T13:24:34+01:00",
     "description" : "A sample patient.",
     "status" : {
       "class" : "colsd",
@@ -49,7 +49,7 @@
     "version" : "0.1.0",
     "name" : "WeightObservation",
     "title" : "Weight Observation",
-    "date" : "2024-03-08T13:21:42+01:00",
+    "date" : "2024-03-08T13:24:34+01:00",
     "description" : "An observation that captures patient weight.",
     "status" : {
       "class" : "colsd",
