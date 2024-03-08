@@ -63,6 +63,14 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://example.org//StructureDefinition/my-patient"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {
