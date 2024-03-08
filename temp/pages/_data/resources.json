@@ -1,0 +1,40 @@
+{
+  "ImplementationGuide/cs6440" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "/Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/ImplementationGuide-cs6440.json",
+    "sourceTail" : "ImplementationGuide-cs6440.json",
+    "path" : "ImplementationGuide-cs6440.html",
+    "url" : "http://example.org//ImplementationGuide/cs6440",
+    "version" : "0.1.0",
+    "name" : "CS6440FSHIG",
+    "title" : "Jun Huang's Implementation Guide",
+    "date" : "2024-03-08T11:42:38+01:00",
+    "description" : "CS6440 Stretch Lab Implementation Guide.",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/my-patient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/StructureDefinition-my-patient.json",
+    "sourceTail" : "StructureDefinition-my-patient.json",
+    "path" : "StructureDefinition-my-patient.html",
+    "url" : "http://example.org//StructureDefinition/my-patient",
+    "version" : "0.1.0",
+    "name" : "MyPatient",
+    "title" : "My Patient",
+    "date" : "2024-03-08T11:42:38+01:00",
+    "description" : "A sample patient.",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  }
+}

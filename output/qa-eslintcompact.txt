@@ -1,0 +1,14 @@
+CS6440FSHIG
+=========================================
+
+Generic: line 0, col 0, Error - Supressed messages file not found (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/ImplementationGuide-cs6440.json: line 0, col 0, Error - Conformance resource /Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/ImplementationGuide-cs6440.json - the canonical URL (http://example.org/ImplementationGuide/cs6440) does not match the URL (http://example.org//ImplementationGuide/cs6440) (INVALID)
+/Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/StructureDefinition-my-patient.json: line 0, col 0, Error - Conformance resource /Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/StructureDefinition-my-patient.json - the canonical URL (http://example.org/StructureDefinition/my-patient) does not match the URL (http://example.org//StructureDefinition/my-patient) (INVALID)
+/Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/StructureDefinition-my-patient.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+
+err = 3, warn = 5, info = 0
+IG Publisher Version: 1.6.0

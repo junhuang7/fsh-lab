@@ -1,0 +1,21 @@
+CS6440FSHIG : Validation Results
+=========================================
+
+err = 3, warn = 5, info = 0
+IG Publisher Version: 1.6.0
+Generated Fri Mar 08 11:43:05 CET 2024. FHIR version 4.0.1 for cs6440#0.1.0 (canonical = http://example.org/)
+ Build Errors : 1 / 4 / 0
+ /Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/ImplementationGuide-cs6440 : 1 / 0 / 1
+ /Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/StructureDefinition-my-patient : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-cs6440.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.org//ImplementationGuide/cs6440'): Conformance resource /Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/ImplementationGuide-cs6440.json - the canonical URL (http://example.org/ImplementationGuide/cs6440) does not match the URL (http://example.org//ImplementationGuide/cs6440)
+== fsh-generated/resources/StructureDefinition-my-patient.json ==
+ERROR: StructureDefinition.where(url = 'http://example.org//StructureDefinition/my-patient'): Conformance resource /Users/junhuang/files/OMSCS/ihi/fsh-lab/fsh-generated/resources/StructureDefinition-my-patient.json - the canonical URL (http://example.org/StructureDefinition/my-patient) does not match the URL (http://example.org//StructureDefinition/my-patient)
+WARNING: StructureDefinition.where(url = 'http://example.org//StructureDefinition/my-patient'): The Implementation Guide contains no examples for this profile

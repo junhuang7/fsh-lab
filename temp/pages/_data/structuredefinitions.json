@@ -1,0 +1,21 @@
+{
+  "my-patient" : {
+    "index" : 0,
+    "url" : "http://example.org//StructureDefinition/my-patient",
+    "name" : "MyPatient",
+    "title" : "My Patient",
+    "path" : "StructureDefinition-my-patient.html",
+    "kind" : "resource",
+    "type" : "Patient",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename" : "Patient",
+    "basepath" : "http://hl7.org/fhir/R4/patient.html",
+    "status" : "draft",
+    "date" : "Fri Mar 08 11:42:38 CET 2024",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "A sample patient."
+  }
+}

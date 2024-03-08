@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "cs6440",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org//ImplementationGuide/cs6440",
+    "version" : "0.1.0",
+    "name" : "CS6440FSHIG"
+  },
+  {
+    "id" : "my-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org//StructureDefinition/my-patient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  }
+]
