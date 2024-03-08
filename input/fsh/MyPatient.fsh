@@ -10,4 +10,4 @@ Description:    "A sample patient profile."
 * address.country 1..1
 * name          1..1
 * name.use      = #official
-* extension contains FavoriteColorExtension 0..1 // This line adds the extension optionally
+* extension contains FavoriteColorExtension named favoriteColor 0..1 // Corrected way to add an extension

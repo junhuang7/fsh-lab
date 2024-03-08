@@ -1,5 +1,5 @@
-Output File                                          Name                      Type       FSH File                      Lines
-StructureDefinition-covid-vaccine-immunization.json  CovidVaccineImmunization  Profile    CovidVaccineImmunization.fsh  1 - 10
-StructureDefinition-favorite-color-extension.json    FavoriteColorExtension    Extension  FavoriteColorExtension.fsh    1 - 5
-StructureDefinition-my-patient.json                  MyPatient                 Profile    MyPatient.fsh                 1 - 14
-StructureDefinition-weight-observation.json          WeightObservation         Profile    WeightObservation.fsh         1 - 12
+Output File                                    Name                    Type       FSH File                    Lines
+StructureDefinition-favorite-color.json        FavoriteColorExtension  Extension  FavoriteColorExtension.fsh  1 - 5
+StructureDefinition-my-patient.json            MyPatient               Profile    MyPatient.fsh               1 - 13
+StructureDefinition-specific-vaccination.json  SpecificVaccination     Profile    SpecificVaccination.fsh     1 - 7
+StructureDefinition-weight-observation.json    WeightObservation       Profile    WeightObservation.fsh       1 - 6

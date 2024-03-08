@@ -5,7 +5,7 @@
   "name": "MyPatient",
   "title": "My Patient",
   "status": "draft",
-  "description": "A sample patient.",
+  "description": "A sample patient profile.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

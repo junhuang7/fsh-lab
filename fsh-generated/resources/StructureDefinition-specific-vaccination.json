@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "covid-vaccine-immunization",
-  "url": "http://example.org//StructureDefinition/covid-vaccine-immunization",
-  "name": "CovidVaccineImmunization",
-  "title": "COVID-19 Vaccine Immunization",
+  "id": "specific-vaccination",
+  "url": "http://example.org//StructureDefinition/specific-vaccination",
+  "name": "SpecificVaccination",
+  "title": "Specific Vaccination",
   "status": "draft",
-  "description": "A specific immunization profile for capturing COVID-19 vaccination records.",
+  "description": "Captures detailed information about a specific vaccination, such as a COVID-19 vaccine.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -44,7 +44,6 @@
       {
         "id": "Immunization.status",
         "path": "Immunization.status",
-        "patternCode": "completed",
         "mustSupport": true
       }
     ]

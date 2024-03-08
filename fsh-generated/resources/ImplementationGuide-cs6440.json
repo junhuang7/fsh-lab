@@ -15,18 +15,10 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/covid-vaccine-immunization"
-        },
-        "name": "COVID-19 Vaccine Immunization",
-        "description": "A specific immunization profile for capturing COVID-19 vaccination records.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/favorite-color-extension"
+          "reference": "StructureDefinition/favorite-color"
         },
         "name": "Favorite Color Extension",
-        "description": "An extension to capture a patient's favorite color.",
+        "description": "Captures a person's favorite color.",
         "exampleBoolean": false
       },
       {
@@ -34,7 +26,15 @@
           "reference": "StructureDefinition/my-patient"
         },
         "name": "My Patient",
-        "description": "A sample patient.",
+        "description": "A sample patient profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/specific-vaccination"
+        },
+        "name": "Specific Vaccination",
+        "description": "Captures detailed information about a specific vaccination, such as a COVID-19 vaccine.",
         "exampleBoolean": false
       },
       {
@@ -42,7 +42,7 @@
           "reference": "StructureDefinition/weight-observation"
         },
         "name": "Weight Observation",
-        "description": "An observation that captures patient weight.",
+        "description": "An observation of a patient's weight.",
         "exampleBoolean": false
       }
     ],

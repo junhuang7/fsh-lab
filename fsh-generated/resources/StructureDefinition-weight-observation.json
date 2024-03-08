@@ -5,7 +5,7 @@
   "name": "WeightObservation",
   "title": "Weight Observation",
   "status": "draft",
-  "description": "An observation that captures patient weight.",
+  "description": "An observation of a patient's weight.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -47,33 +47,8 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "29463-7",
-              "system": "http://loinc.org",
-              "display": "Body weight"
-            }
-          ]
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.subject",
-        "path": "Observation.subject",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ],
-        "mustSupport": true
+        "id": "Observation",
+        "path": "Observation"
       }
     ]
   }

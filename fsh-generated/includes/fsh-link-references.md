@@ -1,4 +1,4 @@
-[CovidVaccineImmunization]: StructureDefinition-covid-vaccine-immunization.html
-[FavoriteColorExtension]: StructureDefinition-favorite-color-extension.html
+[FavoriteColorExtension]: StructureDefinition-favorite-color.html
 [MyPatient]: StructureDefinition-my-patient.html
+[SpecificVaccination]: StructureDefinition-specific-vaccination.html
 [WeightObservation]: StructureDefinition-weight-observation.html
