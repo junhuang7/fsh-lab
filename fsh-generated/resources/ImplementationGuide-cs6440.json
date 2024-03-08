@@ -15,6 +15,22 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/covid-vaccine-immunization"
+        },
+        "name": "COVID-19 Vaccine Immunization",
+        "description": "A specific immunization profile for capturing COVID-19 vaccination records.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/favorite-color"
+        },
+        "name": "Favorite Color Extension",
+        "description": "Extension to capture someone's favorite color.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/my-patient"
         },
         "name": "My Patient",

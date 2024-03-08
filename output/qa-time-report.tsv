@@ -1,4 +1,3 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies
-/fsh-generated/resources/ImplementationGuide-cs6440.json	1305	-	0	0	0	0	0	0	6	73	0	0	0	0	0	0	0	1	0	0	96	78	0	0
-fsh-generated/resources/StructureDefinition-my-patient.json	1677	13	0	0	0	1	0	137	0	61	0	0	1	0	0	0	0	2	0	0	390	3220	0	1
-fsh-generated/resources/StructureDefinition-weight-observation.json	1952	11	0	0	0	0	0	108	0	33	0	0	0	0	0	0	0	1	0	0	367	1287	0	0
+/fsh-generated/resources/ImplementationGuide-cs6440.json	1049	-	0	0	0	0	0	0	6	84	0	0	0	0	0	0	0	0	0	0	84	67	0	1
+fsh-generated/resources/StructureDefinition-my-patient.json	1677	19	0	0	1	1	0	167	0	88	0	0	1	0	0	0	0	1	0	0	374	3856	0	0

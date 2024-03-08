@@ -1,11 +1,27 @@
 [
   {
+    "outputFile": "StructureDefinition-covid-vaccine-immunization.json",
+    "fshName": "CovidVaccineImmunization",
+    "fshType": "Profile",
+    "fshFile": "CovidVaccineImmunization.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-favorite-color.json",
+    "fshName": "FavoriteColorExtension",
+    "fshType": "Extension",
+    "fshFile": "FavoriteColorExtension.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
     "outputFile": "StructureDefinition-my-patient.json",
     "fshName": "MyPatient",
     "fshType": "Profile",
     "fshFile": "MyPatient.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-weight-observation.json",

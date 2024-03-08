@@ -12,12 +12,5 @@
     "url" : "http://example.org//StructureDefinition/my-patient",
     "version" : "0.1.0",
     "name" : "MyPatient"
-  },
-  {
-    "id" : "weight-observation",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org//StructureDefinition/weight-observation",
-    "version" : "0.1.0",
-    "name" : "WeightObservation"
   }
 ]

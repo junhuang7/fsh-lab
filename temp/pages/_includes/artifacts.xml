@@ -26,14 +26,6 @@
             <td>{% capture desc %}A sample patient.{% endcapture %}
 {{ desc | markdownify}}</td>
          </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-weight-observation.html"
-                  title="StructureDefinition/weight-observation">Weight Observation</a>
-            </td>
-            <td>{% capture desc %}An observation that captures patient weight.{% endcapture %}
-{{ desc | markdownify}}</td>
-         </tr>
       </tbody>
    </table>
 </div>

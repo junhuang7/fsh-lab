@@ -10,3 +10,5 @@ Description:    "A sample patient."
 * address.country 1..1 // Requires the country in the address
 * name          1..1 // Requires one and only one name
 * name.use      = #official // Sets the use of the name as "official"
+
+* extension FavoriteColorExtension 0..1

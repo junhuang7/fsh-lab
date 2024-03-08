@@ -1,0 +1,43 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "favorite-color",
+  "url": "http://example.org//StructureDefinition/favorite-color",
+  "name": "FavoriteColorExtension",
+  "title": "Favorite Color Extension",
+  "status": "draft",
+  "description": "Extension to capture someone's favorite color.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Favorite Color Extension",
+        "definition": "Extension to capture someone's favorite color."
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org//StructureDefinition/favorite-color"
+      }
+    ]
+  }
+}

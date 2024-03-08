@@ -11,30 +11,11 @@
     "basename" : "Patient",
     "basepath" : "http://hl7.org/fhir/R4/patient.html",
     "status" : "draft",
-    "date" : "Fri Mar 08 13:24:34 CET 2024",
+    "date" : "Fri Mar 08 13:29:06 CET 2024",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
     "copyright" : null,
     "description" : "A sample patient."
-  },
-  "weight-observation" : {
-    "index" : 1,
-    "url" : "http://example.org//StructureDefinition/weight-observation",
-    "name" : "WeightObservation",
-    "title" : "Weight Observation",
-    "path" : "StructureDefinition-weight-observation.html",
-    "kind" : "resource",
-    "type" : "Observation",
-    "base" : "http://hl7.org/fhir/StructureDefinition/Observation",
-    "basename" : "Observation",
-    "basepath" : "http://hl7.org/fhir/R4/observation.html",
-    "status" : "draft",
-    "date" : "Fri Mar 08 13:24:34 CET 2024",
-    "abstract" : false,
-    "derivation" : "constraint",
-    "publisher" : null,
-    "copyright" : null,
-    "description" : "An observation that captures patient weight."
   }
 }
